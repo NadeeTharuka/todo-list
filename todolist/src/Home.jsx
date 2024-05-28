@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Create from './Create'
 import axios from 'axios'
+import {BsFillCheckCircleFill, BsCircleFill, BsTrash, BsTrash2Fill, BsTrashFill} from "react-icons/bs";
 
 function Home() {
     const [todos, setTodos] = useState([])
@@ -48,7 +49,7 @@ function Home() {
                         <p className={todo.done ? "line_through" : ""}>{todo.task}</p> 
                     </div>
                     <div>
-                        <span><BsCircleFill className='icon' 
+                        <span><BsTrashFill className='icon' 
                              onClick={() => handleDelete(todo._id)}/></span>
                     </div>
                 </div>
