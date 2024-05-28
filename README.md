@@ -22,10 +22,10 @@ git clone https://github.com/Nadee-Tharuka/mern-todo-list.git
 
 - Install dependencies for the server and client:
 
-cd mern-todo-list
-npm install
-cd client
-npm install
+cd mern-todo-list, 
+npm install, 
+cd client, 
+npm install.
 
 - Set up environment variables:
 
